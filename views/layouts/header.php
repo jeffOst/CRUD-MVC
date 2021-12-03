@@ -34,7 +34,7 @@
       <nav class="navbar-dark">
         <ul class="navbar-nav">
           <li>
-            <div class="text-muted small fw-bold text-uppercase px-3">
+            <div class="text-muted small fw-bold text-uppercase px-3 mt-4 mt-lg-2">
               CORE
             </div>
           </li>
@@ -65,7 +65,7 @@
             <div class="collapse" id="layouts">
               <ul class="navbar-nav ps-3">
                 <li>
-                  <a href="<?php echo constant('URL')?>proveedores" class="nav-link px-3">
+                  <a href="<?php echo constant('URL')?>proveedores" class="nav-link px-3" data-turbolinks='false'>
                     <span class="me-2"><i class="bi bi-speedometer2"></i></span>
                     <span>Proveedores</span>
                   </a>

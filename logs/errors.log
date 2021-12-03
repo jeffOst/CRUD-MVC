@@ -1,8 +1,0 @@
-[03-Dec-2021 19:30:51 Europe/Berlin] PHP Warning:  Undefined property: Proveedores::$nombre_modelo in C:\xampp\htdocs\CRUD\controllers\proveedores.php on line 24
-[03-Dec-2021 19:30:51 Europe/Berlin] PHP Warning:  require_once(models/.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\CRUD\class\controlador.php on line 25
-[03-Dec-2021 19:30:54 Europe/Berlin] PHP Warning:  Undefined property: Proveedores::$nombre_modelo in C:\xampp\htdocs\CRUD\controllers\proveedores.php on line 24
-[03-Dec-2021 19:30:54 Europe/Berlin] PHP Warning:  require_once(models/.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\CRUD\class\controlador.php on line 25
-[03-Dec-2021 19:31:23 Europe/Berlin] PHP Warning:  Undefined property: Proveedores::$nombre_modelo in C:\xampp\htdocs\CRUD\controllers\proveedores.php on line 25
-[03-Dec-2021 19:31:23 Europe/Berlin] PHP Warning:  require_once(models/.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\CRUD\class\controlador.php on line 25
-[03-Dec-2021 19:31:29 Europe/Berlin] PHP Warning:  Undefined property: Proveedores::$nombre_modelo in C:\xampp\htdocs\CRUD\controllers\proveedores.php on line 26
-[03-Dec-2021 19:31:29 Europe/Berlin] PHP Warning:  require_once(models/.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\CRUD\class\controlador.php on line 25

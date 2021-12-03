@@ -54,8 +54,8 @@ if (isset($this->fila)) {
                 </div>
 
                 <div class="">
-                    <a href="<?php echo constant('URL') ?>proveedores" class="btn btn-secondary">Cancelar</a>
-                    <button type="submit" class="btn btn-primary">Guardar</button>
+                    <a href="<?php echo constant('URL') ?>proveedores" class="btn btn-secondary" data-turbolinks='false'>Cancelar</a>
+                    <button type="submit" class="btn btn-primary" data-turbolinks='false'>Guardar</button>
                 </div>
 
             </form>

@@ -15,7 +15,7 @@ require_once("views/layouts/header.php");
     <div class="col-md-3 mb-3">
       <div class="card bg-primary text-white h-100">
         <div class="card-body py-5">Proveedores</div>
-        <a href="<?php echo constant('URL')?>proveedores" class="text-white" style="text-decoration: none;">
+        <a href="<?php echo constant('URL')?>proveedores" class="text-white" style="text-decoration: none;" data-turbolinks='false'>
         <div class="card-footer d-flex">
           Ver Detalles
           <span class="ms-auto">
