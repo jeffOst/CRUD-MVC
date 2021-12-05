@@ -1,9 +1,7 @@
 <?php
 
-/*
--> CONTIENE CONSTANTES PHP
--> URL ABSOLUTA (ESTATICA)
-*/
+//-> CONTIENE CONSTANTES PHP
+//-> URL ABSOLUTA (ESTATICA)
 
 //Definir Nombre de la carpeta
 define("PROJECT_NAME","CRUD");

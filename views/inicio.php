@@ -26,14 +26,16 @@ require_once("views/layouts/header.php");
       </div>
     </div>
     <div class="col-md-3 mb-3">
-      <div class="card bg-warning text-dark h-100">
-        <div class="card-body py-5">Warning Card</div>
+      <div class="card bg-warning text-white h-100">
+        <div class="card-body py-5">Usuarios</div>
+        <a href="<?php echo constant('URL')?>usuarios" class="text-white" style="text-decoration: none;" data-turbolinks='false'>
         <div class="card-footer d-flex">
-          View Details
+          Ver Detalles
           <span class="ms-auto">
             <i class="bi bi-chevron-right"></i>
           </span>
         </div>
+        </a>
       </div>
     </div>
     <div class="col-md-3 mb-3">

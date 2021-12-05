@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $('#tableproveedor').DataTable({
+      "destroy": true,  
       "lengthMenu": [ [5,10,50,-1], [5,10,50,"Todos"] ],
 
       "language": {

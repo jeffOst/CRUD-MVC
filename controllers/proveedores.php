@@ -12,17 +12,14 @@ class Proveedores extends Controlador
 	{
 		$this->mostrarDatos();
 		require_once ("views/".$vista.".php");
-
-        //$this->mostrarVista($vista);
 	}
-
 
 	function mostrarDatos()
 	{
 		//Cargar el Modelo
 		$modelo = $this->cargarModelo("proveedor_model");
 		//Ejecutar el metodo listarTodos del modelo
-		//guardar la tabla en una propiedad
+		//Y guardar la tabla en una propiedad
 		$this->tabla = $modelo->listar();
 	}
 
@@ -89,8 +86,6 @@ class Proveedores extends Controlador
 		//Redireccionar
 		header("refresh:0;" . constant("URL") . "proveedores");
 	}
-
-
 
 }
 

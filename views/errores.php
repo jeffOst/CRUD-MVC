@@ -1,9 +1,10 @@
 <?php
 require_once('layouts/header.php');
 ?>
-
-<div class="mt-5 pt-5 text-center">
-  <h1>Error <span style="color: crimson"><?= $this->mensaje ?></span></h1>
+  
+<div class="text-center mt-5">
+  <h1><span style="color: crimson">Error: <?= $this->mensaje ?></span></h1>
+  <img src="<?php echo constant('URL') ?>public/img/error.png" width="100%" height="430px" alt="">
 </div>
 
 <?php

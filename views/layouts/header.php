@@ -11,7 +11,8 @@
   <link rel="stylesheet" href="<?php echo constant('URL') ?>public/css/bootstrap.min.css" />
   <link rel="stylesheet" href="<?php echo constant('URL') ?>public/css/dataTables.bootstrap5.min.css" />
   <link rel="stylesheet" href="<?php echo constant('URL') ?>public/css/style.css" />
-
+  <!--Favicon-->
+  <link rel="shortcut icon" href="<?php echo constant('URL') ?>public/img/favicon.ico">
   <title>CRUD</title>
 </head>
 
@@ -23,10 +24,10 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="offcanvasExample">
         <span class="navbar-toggler-icon" data-bs-target="#sidebar"></span>
       </button>
-      <a class="navbar-brand me-auto ms-lg-0 ms-3 text-uppercase fw-bold" href="<?php echo constant('URL')?>">ADMINISTRADOR</a>
+      <a class="navbar-brand me-auto ms-lg-0 ms-3 text-uppercase fw-bold" href="<?php echo constant('URL') ?>">ADMINISTRADOR</a>
   </nav>
   <!------------------------->
-  
+
 
   <!-- Barra de Navegacion Lateral -->
   <div class="offcanvas offcanvas-start sidebar-nav bg-dark" tabindex="-1" id="sidebar">
@@ -39,7 +40,7 @@
             </div>
           </li>
           <li>
-            <a href="<?php echo constant('URL')?>" class="nav-link px-3 active">
+            <a href="<?php echo constant('URL') ?>" class="nav-link px-3 active">
               <span class="me-2"><i class="bi bi-speedometer2"></i></span>
               <span>Dashboard</span>
             </a>
@@ -63,14 +64,25 @@
               </span>
             </a>
             <div class="collapse" id="layouts">
+
               <ul class="navbar-nav ps-3">
                 <li>
-                  <a href="<?php echo constant('URL')?>proveedores" class="nav-link px-3" data-turbolinks='false'>
+                  <a href="<?php echo constant('URL') ?>proveedores" class="nav-link px-3" data-turbolinks='false'>
                     <span class="me-2"><i class="bi bi-speedometer2"></i></span>
                     <span>Proveedores</span>
                   </a>
                 </li>
               </ul>
+
+              <ul class="navbar-nav ps-3">
+                <li>
+                  <a href="<?php echo constant('URL') ?>usuarios" class="nav-link px-3" data-turbolinks='false'>
+                    <span class="me-2"><i class="bi bi-people-fill"></i></span>
+                    <span>Usuarios</span>
+                  </a>
+                </li>
+              </ul>
+
             </div>
           </li>
           <li>
